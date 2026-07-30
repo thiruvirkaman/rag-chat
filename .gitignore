@@ -1,0 +1,40 @@
+# Env / secrets
+.env
+*.env
+!*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# FAISS / vector caches
+*.faiss
+*.pkl
+faiss_index/
+chroma_db/
+.vectorstore/
+
+# Uploaded PDFs / temp
+uploads/
+*.pdf
+!docs/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
